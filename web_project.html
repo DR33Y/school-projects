@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="styleSheet" href="home.css"> 
+    <link rel="stylesheet" href="home.css"> 
     <title>CodeTeach</title>
+    <script src="home.js"></script>
 </head>
-<body>
+<body onload="init()">
     <header class="container-fluid">
         <div class="container">
             <div class="logo">
@@ -33,7 +34,7 @@
 
     <main class="container-fluid">
         <div class="container">
-            <div class="box box1">
+            <div class="box box1" onclick="togglePythonInfo()">
                 <h4>Python</h4>
             </div>
             <div class="box box2">
@@ -53,7 +54,7 @@
 
     <div class="container-fluid info">
         <div class="container">
-            <div id="py" onclick="show_py()" class="python">
+            <div id="python" class="python">
                 <h3>variables typs:</h3>
                 <ol>
                     <li>integer - Stores whole numbers without decimal points, like 5, -10, or 0.</li>
