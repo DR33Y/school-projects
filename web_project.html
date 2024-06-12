@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="home.css"> 
-    <title>CodeTeach</title>
     <script src="home.js"></script>
+    <title>CodeTeach</title>
 </head>
 <body onload="init()">
     <header class="container-fluid">
@@ -37,7 +37,7 @@
             <div class="box box1" onclick="togglePythonInfo()">
                 <h4>Python</h4>
             </div>
-            <div class="box box2">
+            <div class="box box2" onclick="toggleJsInfo()">
                 <h4>Java Script</h4>
             </div>
             <div class="box box3">
@@ -57,11 +57,22 @@
             <div id="python" class="python">
                 <h3>variables typs:</h3>
                 <ol>
-                    <li>integer - Stores whole numbers without decimal points, like 5, -10, or 0.</li>
-                    <li>float - Stores decimal numbers, like 3.14, -0.5, or 2.0.</li>
-                    <li>string - Stores sequences of characters, enclosed in single or double quotes, like "hello" or 'Python'.</li>                    <li>char - In Python, characters are represented as strings of length 1. For example, 'a', 'X', or '&'. However, Python doesn't have a separate char type like some other languages.</li>
-                    <li>boolean - Represents truth values, either True or False.</li>
-                </ol>
+                    <li>
+                        integer - Stores whole numbers without decimal points, like 5, -10, or 0.
+                    </li>
+                    <li>
+                        float - Stores decimal numbers, like 3.14, -0.5, or 2.0.
+                    </li>
+                    <li>
+                        string - Stores sequences of characters, enclosed in single or double quotes, like "hello" or 'Python'.
+                    </li>                    
+                    <li>    
+                        char - In Python, characters are represented as strings of length 1. For example, 'a', 'X', or '&'. However, Python doesn't have a separate char type like some other languages.
+                    </li>
+                    <li>
+                        boolean - Represents truth values, either True or False.
+                    </li>
+                </ol>    
                 ______________________________________________
                 <h2>Python</h2>
                 <h3>
@@ -69,7 +80,7 @@
                 </h3>
                 ______________________________________________
                 <h3>
-                    How to print strings in pyhon:<br>In Python you can print strings using the 'print()' function.<br>Here's how you can do it: 
+                    How to print strings in pyhon:<br>In Python you can print strings using the 'print()' function.<br>Here's how you can use it: 
                 </h3>
                 <img src="img/print_py.png" width="350"><br>
                 ______________________________________________
@@ -95,6 +106,67 @@
                 <img src="img/fun_py.png" width="350"><br>
                 ______________________________________________
             </div>
+            <div id="js" class="js">
+                <h3>variables typs:</h3>
+                <ol>
+                    <li>
+                        integer: JavaScript does not have a specific integer type. Instead, it uses the Number type to represent both integers and floating-point numbers.
+                        Examples: 42, -7, 0.
+                    </li>
+                    <li>
+                        float: JavaScript does not have a specific integer type. Instead, it uses the Number type to represent both integers and floating-point numbers.
+                        Examples: 42, -7, 0.
+                    </li>
+                    <li>
+                        string: Represents a sequence of characters (text) enclosed in single quotes ('), double quotes ("), or backticks (`).
+                        Examples: 'hello', "world", `JavaScript`.
+                    </li>
+                    <li>
+                        JavaScript does not have a specific char type. Instead, single characters are treated as strings of length one.
+                        Example: 'a' (which is a string containing one character).
+                    </li>
+                    <li>
+                        boolean: Represents a logical entity with two values: true or false.
+                        Examples: true, false.
+                    </li>
+                </ol>
+                ______________________________________________
+                <h3>Java Script</h3>
+                <h3>
+                    JavaScript is the de facto language of the web. Every major browser supports JavaScript, making it essential for front-end development.
+                    Full-Stack Development: With the advent of Node.js, JavaScript can be used for both client-side and server-side development, allowing developers to use a single language across the entire stack.
+                </h3>
+                ______________________________________________
+                <h3>
+                    How to print strings in Java Script:<br>
+                    In JavaScript, you can print strings to the console using the console.log() function.<br>Here's how you can use it.
+                </h3>
+                <img src="img/print_js.png" width="300"><br>
+                ______________________________________________
+                <h3>
+                    What is if else statement in Java Script:<br>An if-else statement in JavaScript is a control flow statement that allows you to execute certain blocks of code based on a condition. Here's a brief explanation:<br>
+                    if statement: Checks a condition, and if the condition is true, executes a block of code.<br>
+                    else statement: Provides an alternative block of code that executes if the if condition is false.<br>
+                    else if statement: Checks another condition if the previous if condition is false.
+                </h3>
+                <img src="img/statement_js.png" width="300"><br>
+                ______________________________________________
+                <h3>
+                    What is while, for and do while loops in Java Scrip:<br>Repeats a block of code as long as a specified condition is true.<br>Repeats a block of code a specific number of times, often using a counter.<br>Executes a block of code once, and then repeats the loop as long as the specified condition is true. The condition is evaluated after the execution of the loop.<br>Here's how you can use it:                    
+                </h3>
+                <img src="img/loops_js.png" width="300"><br>
+                ______________________________________________
+                <h3>
+                    An array/List in JavaScript is a collection of elements, each identified by an index. Arrays can store multiple values in a single variable and can contain elements of any data type.<br>A 2D array/List is an array of arrays. It can be visualized as a table or a matrix with rows and columns.
+                </h3>
+                <img src="img/lists_js.png" width="350"><br>
+                ______________________________________________
+                <h4>
+                    What is functions in Java Script:<br>In JavaScript, functions are blocks of reusable code that perform a specific task. Functions allow you to encapsulate a piece of code and execute it whenever needed, making your code more organized, modular, and easier to maintain.
+                </h4>
+                <img src="img/fun_js.png" width="350"><br>
+                ______________________________________________
+            </div> 
         </div>
     </div>
 </body>
