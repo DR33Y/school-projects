@@ -1,6 +1,6 @@
 function togglePythonInfo() {
     let pythonDiv = document.querySelector('#python');
-    if (document.querySelector('#js').style.display == 'none' && document.querySelector('#java').style.display == 'none'){
+    if (document.querySelector('#js').style.display == 'none' && document.querySelector('#java').style.display == 'none' && document.querySelector('#cs').style.display == 'none'){
         if (pythonDiv.style.display == 'none')
             pythonDiv.style.display = 'block'; 
         else
@@ -9,7 +9,7 @@ function togglePythonInfo() {
 }
 function toggleJsInfo(){
     let jsDiv = document.querySelector('#js');
-    if (document.querySelector('#python').style.display == 'none' && document.querySelector('#java').style.display == 'none'){
+    if (document.querySelector('#python').style.display == 'none' && document.querySelector('#java').style.display == 'none' && document.querySelector('#cs').style.display == 'none'){
         if (jsDiv.style.display == 'none') 
             jsDiv.style.display = 'block'; 
         else
@@ -18,17 +18,26 @@ function toggleJsInfo(){
 }
 function toggleJavaInfo(){
     let javaDiv = document.querySelector('#java');
-    if (document.querySelector('#python').style.display == 'none' && document.querySelector('#js').style.display == 'none'){
+    if (document.querySelector('#python').style.display == 'none' && document.querySelector('#js').style.display == 'none' && document.querySelector('#cs').style.display == 'none'){
         if (javaDiv.style.display == 'none')
             javaDiv.style.display = 'block';
         else
             javaDiv.style.display = 'none';
 
     }
-
+}
+function toggleCsInfo(){
+    let csDiv = document.querySelector('#cs');
+    if (document.querySelector('#python').style.display == 'none' && document.querySelector('#js').style.display == 'none' && document.querySelector('#java').style.display == 'none'){
+        if (csDiv.style.display == 'none')
+            csDiv.style.display = 'block';
+        else
+            csDiv.style.display = 'none';
+    }
 }
 function init(){
     document.querySelector('#python').style.display = 'none';
     document.querySelector('#js').style.display = 'none';
     document.querySelector('#java').style.display = 'none';
+    document.querySelector('#cs').style.display = 'none';
 }
