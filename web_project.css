@@ -86,23 +86,23 @@ main .box{
 }
 main .box1:hover{
     background: rgb(0, 122, 204);
-    transform: translate(0,-40px);
+    transform: translate(0,-45px);
 }
 main .box2:hover{
     background: rgb(255, 223, 0);
-    transform: translate(0,-40px);
+    transform: translate(0,-45px);
 }
 main .box3:hover{
     background: rgb(176, 0, 32);
-    transform: translate(0,-40px);
+    transform: translate(0,-45px);
 }
 main .box4:hover{
     background: rgb(128, 0, 128);
-    transform: translate(0,-40px);
+    transform: translate(0,-45px);
 }
 main .box5:hover{
     background: rgb(173, 216, 230);
-    transform: translate(0,-40px);
+    transform: translate(0,-45px);
 }
 /* end main */
 
