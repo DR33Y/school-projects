@@ -11,7 +11,7 @@
     <header class="container-fluid">
         <div class="container">
             <div class="logo">
-                <img src="img/logo.jpg" width="100">
+                <img src="img/logo.png" width="250">
             </div>
             <nav>
                 <a id="current" href="#">Home</a>
@@ -43,7 +43,7 @@
             <div class="box box3" onclick="toggleJavaInfo()">
                 <h4>Java</h4>
             </div>
-            <div class="box box4">
+            <div class="box box4" onclick="toggleCsInfo()">
                 <h4>C#</h4>
             </div>
             <div class="box box5">
@@ -80,7 +80,7 @@
                 </h3>
                 ______________________________________________
                 <h3>
-                    How to print strings in pyhon:<br>In Python you can print strings using the 'print()' function.<br>Here's how you can use it: 
+                    How to print strings in python:<br>In Python you can print strings using the 'print()' function.<br>Here's how you can use it: 
                 </h3>
                 <img src="img/print_py.png" width="350"><br>
                 ______________________________________________
@@ -101,12 +101,12 @@
                 <img src="img/lists_py.png" width="350"><br>
                 ______________________________________________
                 <h3>
-                    What is function in pytho:<br>A function in Python is a block of reusable code that performs a specific task. Functions help to modularize and organize code, making it more readable, maintainable, and reusable.<br>Function Definition: A function is defined using the def keyword followed by the function name and parentheses (). If the function takes parameters, they are listed inside the parentheses.<br>Function Body: This is the block of code that performs the task. It is indented under the function definition.<br>Return Statement: Optionally, a function can return a value using the return keyword.<br>Here's how you can use it:
+                    What is function in python:<br>A function in Python is a block of reusable code that performs a specific task. Functions help to modularize and organize code, making it more readable, maintainable, and reusable.<br>Function Definition: A function is defined using the def keyword followed by the function name and parentheses (). If the function takes parameters, they are listed inside the parentheses.<br>Function Body: This is the block of code that performs the task. It is indented under the function definition.<br>Return Statement: Optionally, a function can return a value using the return keyword.<br>Here's how you can use it:
                 </h3>
                 <img src="img/fun_py.png" width="350"><br>
                 ______________________________________________
             </div>
-            <div id="js" class="js">
+            <div id="js" class="js"> 
                 <h3>variables typs:</h3>
                 <ol>
                     <li>
@@ -114,20 +114,17 @@
                         Examples: 42, -7, 0.
                     </li>
                     <li>
-                        float - JavaScript does not have a specific integer type. Instead, it uses the Number type to represent both integers and floating-point numbers.
-                        Examples: 42, -7, 0.
+                        float - JavaScript does not have a specific integer type. Instead, it uses the Number type to represent both integers and floating-point numbers,
+                        like 42, -7, 0.
                     </li>
                     <li>
-                        string - Represents a sequence of characters (text) enclosed in single quotes ('), double quotes ("), or backticks (`).
-                        Examples: 'hello', "world", `JavaScript`.
+                        string - Represents a sequence of characters (text) enclosed in single quotes ('), double quotes ("), or backticks (`), like 'hello', "world", `JavaScript`.
                     </li>
                     <li>
-                        JavaScript does not have a specific char type. Instead, single characters are treated as strings of length one.
-                        Example: 'a' (which is a string containing one character).
+                        JavaScript does not have a specific char type. Instead, single characters are treated as strings of length one, like 'a' (which is a string containing one character).
                     </li>
                     <li>
-                        boolean - Represents a logical entity with two values: true or false.
-                        Examples: true, false.
+                        boolean - Represents a logical entity with two values: true or false, like true, false.
                     </li>
                 </ol>
                 ______________________________________________
@@ -157,7 +154,7 @@
                 <img src="img/loops_js.png" width="300"><br>
                 ______________________________________________
                 <h3>
-                    An array/List in JavaScript is a collection of elements, each identified by an index. Arrays can store multiple values in a single variable and can contain elements of any data type.<br>A 2D array/List is an array of arrays. It can be visualized as a table or a matrix with rows and columns.
+                    What is arrays/Lists and 2D arrays/Lists in Java(matrix) Script:<br>An array/List in JavaScript is a collection of elements, each identified by an index. Arrays can store multiple values in a single variable and can contain elements of any data type.<br>A 2D array/List is an array of arrays. It can be visualized as a table or a matrix with rows and columns.
                 </h3>
                 <img src="img/lists_js.png" width="350"><br>
                 ______________________________________________
@@ -174,13 +171,13 @@
                         integer - In Java, int is a data type representing integer numbers (whole numbers without fractional parts). It's used to store numbers like -5, 0, 42, etc. Java also has other integer types like byte, short, and long which represent integers of different sizes.
                     </li>
                     <li>
-                        float - In Java, float is a data type representing floating-point numbers. Floating-point numbers are numbers that have a decimal point or are represented in exponential form. For example, 3.14, -0.001, 1.0E5, etc. Java also has double data type for representing double-precision floating-point numbers which is more commonly used.
+                        float - Represents a single-precision 32-bit floating point. Used to store numbers with fractional parts. Requires an 'f' or 'F' suffix. Java also has double data type for representing double-precision floating-point numbers which is more commonly used.
                     </li>
                     <li>
-                        string - String is a class in Java representing a sequence of characters. It's used to store text. For example, "Hello, World!", "Java is awesome!", etc. Strings in Java are immutable, meaning once created, they cannot be changed.
+                        string - String is a class in Java representing a sequence of characters. It's used to store text, like "Hello, World!", "Java is awesome!", etc. Strings in Java are immutable, meaning once created, they cannot be changed.
                     </li>
                     <li>
-                        char - char is a data type representing a single character. It stores a single 16-bit Unicode character. For example, 'a', '7', '&', etc.
+                        char - char is a data type representing a single character. It stores a single 16-bit Unicode character, like 'a', '7', '&', etc.
                     </li>
                     <li>
                         boolean - boolean is a data type representing true or false values. It's used for logical operations and conditions. In Java, boolean variables can have only two possible values: true or false.
@@ -216,6 +213,61 @@
                     What is functions in Java:<br>In Java, functions (also known as methods) are blocks of code designed to perform specific tasks. They help in organizing and reusing code efficiently.<br>A function in Java is a block of code that performs a specific task and is defined within a class.<br>Functions can take inputs (parameters) and can return a value.
                 </h3>
                 <img src="img/fun_j.png" width="350"><br>
+                ______________________________________________
+            </div>
+            <div id="cs" class="cs">
+                <h3>variables type:</h3>
+                <ol>
+                    <li>
+                        integer - Represents a 32-bit signed integer. Used to store whole numbers without a decimal point, like 5, -10, or 0. C# also has other integer types like byte, short, and long which represent integers of different sizes.
+                    </li>
+                    <li>
+                        float - Represents a single-precision 32-bit floating point. Used to store numbers with fractional parts. Requires an 'f' or 'F' suffix. C# also has double data type for representing double-precision floating-point numbers which is more commonly used.
+                    </li>
+                    <li>
+                        string - Represents a sequence of characters. Used to store text.
+                    </li>
+                    <li>
+                        char - Represents a single 16-bit Unicode character. Used to store a single character.
+                    </li>
+                    <li>
+                        boolean(bool) - Represents a Boolean value. Used to store true or false.
+                    </li>
+                </ol>
+                ______________________________________________
+                <h3>C#</h3>
+                <h3>
+                    C# is designed to work seamlessly with the .NET framework, providing extensive libraries, tools, and APIs for various application types, including desktop, web, and mobile applications. C# is a fully object-oriented programming language, promoting code reuse, modularity, and scalability, which helps in maintaining and expanding large applications.   
+                </h3>
+                ______________________________________________
+                <h3>
+                    How to print strings in C#<br>In C#, you can print strings using the Console.WriteLine and Console.Write methods from the System namespace<br>Here's how you can use that:
+                </h3>
+                <img src="img/print_cs.png" width="350"><br>
+                ______________________________________________
+                <h3>
+                    Whats is if else statement in C#:<br>In C#, the if-else statement is a control flow statement that allows you to execute different blocks of code based on the evaluation of a condition.<br>if Statement:
+                    Executes a block of code if the specified condition evaluates to true.<br>else Statement: Provides an alternative block of code to execute if the condition evaluates to false.<br>Here's how you can use that:
+                </h3>
+                <img src="img/statement_cs.png" width="350"><br>
+                ______________________________________________
+                <h3>
+                    What is while, for and do while loosp in C#:<br>The while loop executes a block of code as long as the specified condition evaluates to true.
+                    The condition is evaluated before the execution of the loops body.<br>The for loop is commonly used for iterating a set number of times.
+                    It consists of three parts: initialization, condition, and iteration (increment/decrement).<br>The do-while loop is similar to the while loop, but the condition is evaluated after the execution of the loop’s body.
+                    This ensures that the loops body is executed at least once, regardless of whether the condition is true or false initially.<br>Here's how you can use that:
+                </h3>
+                <img src="img/loops_cs.png" width="350"><br>
+                ______________________________________________
+                <h3>
+                    What is arrays and 2D arrays(matrix):<br>Arrays and 2D arrays in C# are data structures used to store multiple values of the same data type sequentially in memory<br>Array: An array is a collection of elements of the same data type stored at contiguous memory locations. Arrays have a fixed size, which is specified during initialization and cannot be changed afterward. Elements of an array are accessed using an index, starting from 0.Arrays in C# are zero-indexed, meaning the first element is at index 0.<br>2D Array: Also known as a matrix, a 2D array is an array of arrays where each element is itself an array. It represents a grid of element arranged in rows and columns. In C#, 2D arrays are rectangular, meaning each row has the same number of elements.<br>Here's how you can use that:
+                </h3>
+                <img src="img/lists_cs.png" width="350"><br>
+                ______________________________________________
+                <h3>
+                    What is functions in C#<br>In C#, functions are blocks of code that perform a specific task or operation. They help in organizing code into reusable modules, improving readability, and making maintenance easier<br>A function is defined using the function keyword followed by the function name, parameters (optional), and return type (optional).<br>Parameters are values passed to the function. They are optional, and a function can have zero or more parameters.<br>Functions can return a value using the return statement. The return type specifies the type of value returned by the function. If a function doesn't return anything, its return type is void.<br>It contains the statements that define what the function does when called.<br>Here's how you can use that:
+                </h3>
+                <img src="img/fun_cs.png" width="350"><br>
                 ______________________________________________
             </div>
         </div>
