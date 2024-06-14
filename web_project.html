@@ -34,19 +34,19 @@
 
     <main class="container-fluid">
         <div class="container">
-            <div class="box box1" onclick="togglePythonInfo()">
+            <div id="box1" class="box box1" onclick="togglePythonInfo()">
                 <h4>Python</h4>
             </div>
-            <div class="box box2" onclick="toggleJsInfo()">
+            <div id="box2" class="box box2" onclick="toggleJsInfo()">
                 <h4>Java Script</h4>
             </div>
-            <div class="box box3" onclick="toggleJavaInfo()">
+            <div id="box3" class="box box3" onclick="toggleJavaInfo()">
                 <h4>Java</h4>
             </div>
-            <div class="box box4" onclick="toggleCsInfo()">
+            <div id="box4" class="box box4" onclick="toggleCsInfo()">
                 <h4>C#</h4>
             </div>
-            <div class="box box5">
+            <div id="box5" class="box box5" onclick="toggleCppInfo()">
                 <h4>C++</h4>
             </div>
         </div>
@@ -268,6 +268,57 @@
                     What is functions in C#<br>In C#, functions are blocks of code that perform a specific task or operation. They help in organizing code into reusable modules, improving readability, and making maintenance easier<br>A function is defined using the function keyword followed by the function name, parameters (optional), and return type (optional).<br>Parameters are values passed to the function. They are optional, and a function can have zero or more parameters.<br>Functions can return a value using the return statement. The return type specifies the type of value returned by the function. If a function doesn't return anything, its return type is void.<br>It contains the statements that define what the function does when called.<br>Here's how you can use that:
                 </h3>
                 <img src="img/fun_cs.png" width="350"><br>
+                ______________________________________________
+            </div>
+            <div id="cpp" class="cpp">
+                <h3>variables typs:</h3>
+                <ol>
+                    <li>
+                        integer - The int data type is used to store integers, which are whole numbers without any fractional part. It typically occupies 4 bytes of memory and can store values in the range from -2,147,483,648 to 2,147,483,647.
+                    </li>
+                    <li>
+                        float -  The float data type is used to store floating-point numbers, which are numbers with a fractional part. It typically occupies 4 bytes of memory and can represent a wide range of values with fractional components.
+                    </li>
+                    <li>
+                        string - The std::string class represents a sequence of characters (a string). Unlike char arrays, std::string provides more functionality and ease of use for handling text.
+                    </li>
+                    <li>
+                        char - The char data type is used to store a single character. It typically occupies 1 byte of memory and can represent characters in the ASCII character set.
+                    </li>
+                    <li>
+                        boolean(bool) - The bool data type is used to store boolean values, which can be either true or false. It typically occupies 1 byte of memory.
+                    </li>
+                </ol>
+                ______________________________________________
+                <h3>
+                    C++<br>C++ is a compiled language that translates directly to machine code, resulting in high performance and efficient use of system resources.<br>Offers low-level manipulation of data, memory, and system resources, allowing developers to optimize performance.
+                </h3>
+                ______________________________________________
+                <h3>
+                    How to print strings in C++:<br>std::cout: Standard output stream. <<: Insertion operator, used to send the string to the output stream. std::endl: Inserts a newline character and flushes the output buffe<br>Here's how you can use that:
+                </h3>
+                <img src="img/print_cpp.png" width="350"><br>
+                ______________________________________________
+                <h3>
+                    What is if else in C++:<br>The if statement executes a block of code if a specified condition is true.<br>The else statement follows an if statement and executes a block of code if the if condition is false.<br>The if-else statement allows you to test multiple conditions. The first block of code with a true condition is executed.<br>Here's how you can that:
+                </h3>
+                <img src="img/statement_cpp.png" width="350"><br>
+                ______________________________________________
+                <h3>
+                    What is while, for and do while loops in C++:<br>The while loop repeatedly executes a block of code as long as the given condition is true.<br>The for loop is typically used when the number of iterations is known beforehand. It includes initialization, condition, and increment/decrement in one line.<br>The do-while loop is similar to the while loop, but it guarantees that the code block will be executed at least once because the condition is checked after the execution of the block.<br>Here's how you can use that:
+                </h3>
+                <img src="img/loops_cpp.png" width="350"><br>
+                ______________________________________________
+                <h3>
+                    What is arrays and 2D arrays(matrix) in C++:<br>An array in C++ is a collection of elements of the same data type stored in contiguous memory locations. Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value. Specify the type of elements and the number of elements in the array.Can be done at the time of declaration.<br>A 2D array is an array of arrays. It can be visualized as a table with rows and columns, where each element is accessed using two indices. Specify the type of elements and the number of rows and columns. Can be done at the time of declaration.<br>Here's how you can use that:
+                </h3>
+                <img src="img/lists_cpp.png" width="350"><br>
+                ______________________________________________
+                <h3>
+                    What is functions in C++:<br>In C++, functions are blocks of code that perform specific tasks and can be called (invoked) from other parts of the program. Functions help in organizing code, making it reusable, modular, and easier to maintain.<br>Specifies the function's name, return type, and parameters (without the function body).
+                    Example: int add(int a, int b);<br>Contains the actual body of the function where the task is performed.<br>Invokes the function to perform its task. Example: int sum = add(3, 4);<br>Here's how you can use that:
+                </h3>
+                <img src="img/fun_cpp.png" width="450"><br>
                 ______________________________________________
             </div>
         </div>
